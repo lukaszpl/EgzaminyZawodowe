@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    background: #eee url("ChugachMount ains.jpg") no-repeat fixed center/cover;
+    font-family: sans-serif;
+    padding: 50px 0;
+    min-height: 100%;
+    overflow-y: scroll;
+}
+
+
+
+#top,
+.top {
+    width: 768px;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    padding: 4px;
+}
+
+hgroup h1,
+hgroup h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: initial;
+}
+
+hr {
+    display: block;
+    margin: 4px;
+    border: 2px solid #bbb;
+}
+
+.q {
+    margin-bottom: 40px;
+}
+
+h1 a {
+    text-decoration: inherit;
+    color: inherit;
+
+}
+
+h1 {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    border-bottom: 4px solid #555;
+    margin: 4px;
+    padding: 10px;
+}
+
+h2 {
+    margin: 4px;
+    font-size: 18px;
+    background-color: #bbb;
+    padding: 8px;
+    font-weight: 400;
+    border-left: 4px solid #bbb;
+    border-right: 4px solid #bbb;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.square {
+    width: 256px;
+    height: 256px;
+    display: block;
+    float: left;
+}
+
+.square label {
+    display: block;
+    width: 224px;
+    height: 224px;
+    text-align: center;
+    border: 4px solid #eee;
+}
+
+.qualicon {
+    font-size: 80px;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+.info {
+    border: 4px solid #bbb;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+}
+
+label,
+.labellike {
+    color: inherit;
+    display: block;
+    margin: 4px;
+    background-color: #eee;
+    font-size: 18px;
+    padding: 8px;
+    border-left: 4px solid #eee;
+    border-right: 4px solid #eee;
+    transition: all 100ms;
+    text-decoration: inherit;
+    clear: both;
+}
+
+
+
+label:hover,
+.labellike:hover {
+    background-color: #ffc;
+    border-color: #ffc;
+}
+
+label:active,
+.labellike:active {
+    background-color: #ffa;
+    border-color: #ffa;
+}
+
+label.correct {
+    background-color: #afa;
+    border-color: #afa;
+}
+
+label.chosen {
+    background-color: #f55;
+    border-color: #400;
+}
+
+label.correct.chosen {
+    background-color: #5f5;
+    border-color: #040;
+}
+
+input:checked + label {
+    background-color: #ffa;
+    border-color: #040;
+}
+
+.auxilia {
+    display: none;
+    background-color: #fff;
+    border-width: 0;
+}
+
+input:checked + label + .auxilia {
+    display: block;
+}
+
+button {
+    color: black;
+    width: 760px;
+    display: block;
+    margin: 4px;
+    background-color: #ccc;
+    font-size: 18px;
+    padding: 8px;
+    transition: all 100ms;
+    border: none;
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+button:active {
+    background-color: #aaa;
+}
+
+figure {
+    margin: 4px;
+    padding: 0;
+
+}
+
+figure img {
+    max-width: 760px;
+    margin: auto;
+    display: block;
+}
+
+.faded {
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.icon:hover {
+    color: #888;
+}
