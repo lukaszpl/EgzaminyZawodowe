@@ -11,7 +11,7 @@ body {
 .top {
     width: 768px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #eee;
     color: black;
     padding: 4px;
 }
